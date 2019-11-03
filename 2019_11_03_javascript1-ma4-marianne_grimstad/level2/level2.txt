@@ -1,0 +1,36 @@
+1. What is DOM?
+
+The DOM (Document Object Model) is a programming interface for HTML and XML documents. It represent the documents (nodes,objects) so that the programming languages can connect to the page. The DOM is 
+representing the page so that programs can change the document structure, style and content.
+
+2. List three methods to manipulate the DOM.
+
+ - The querySelector() method returnes the first element that matces one or more CSS selectors.
+ - The getElementById() method fetches an element with a specified id value.
+ - The querySelectorAll() method returnes all the elements that match the specified CSS selector.
+
+3. What is an asynchronous call?
+
+An asynchronous call will wait for a timer to finish or a request to respond while the rest of the code continue to execute. When the time is right a callback will spring these asynchronous requests into action.
+
+4. Briefly explain what the sources tab in Chromes Developer Tools does?
+
+The sources tab in Chromes Developer Tools is used to debug your code. A breakpoint lets you pause your code in the middle of its execution, and examine all values at that moment in time.
+
+5. What is a JavaScript promise?
+
+A JavaScript promise is an object that may produce a single value some time in the future. It can be returned synchronously from an asynchronous function. It will be in one of three possible states: Fulfilled, Rejected and pending (not yet fulfilled or rejected).
+
+6. What is an API?
+
+API (Application Programming Interface) allow applications to communicate with one another. It is a communication protocal between a client and a server that is ment to make it easier to build client-side software.
+
+7. What is a JavaScript Event?
+
+JavaScript's interaction is handled through events that occour when the user or the browser manipulate a page. When the page loads, it is called an event and when the user clicks a button that click to an event. Developers can use these events to execute JavaScript coded responses like buttons to close window, messages to be displayed or data to be validated.
+
+8. What is event bubbling?
+
+Event bubbling is the order in which event handelers are called when one element is nested inside a second element, and both elements has registrered a listener for the same event. With bubbling, the event is first captured and handled by the inner element and then passed on to outer elements. This is also called propagation.
+
+
